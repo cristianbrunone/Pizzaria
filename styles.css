@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    background-image: url('img/123.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 150px;
+}
+
+header h1 {
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 30px; /* Espaciado entre letras */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+nav {
+    background-color: #0076d7;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.pizza {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.fondo{
+    background-image: url(img/fondo2.png);
+    background-repeat: no-repeat;
+    background-size: 1900px 2500px;
+    color: white;
+}
+
+.pizza h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.pizza p {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.container {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    
+}
+
+.container img {
+    position: absolute;
+}
+
+
+.img-2{
+    width: 90%;
+    cursor:pointer;
+}
+
+.img-1 {
+    width: 90%;
+    position: absolute;
+    transition: 1s;
+    transform-origin: center;
+    transform: scale(0) rotate(100deg);
+}
+
+.container:hover .img-1 {
+    transform: scale(1);
+}
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    text-align:center;
+}
+
+footer p {
+    color: #fff;
+}
